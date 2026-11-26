@@ -6,7 +6,9 @@
 
 **面向 Android 的 Rime 输入法方案管理器：不联网、不走 SAF，借 Root / Shizuku 直接管理多个 Rime 前端的方案。**
 
-主要面向小企鹅输入法 Rime插件和同文输入法Trime，理论上支持所有Rime输入法（依输入法实际行为而定）。
+（PAuPt本人：因为嫌rime配置太麻烦，最开始只是想让ai搞一个导入工具，写着写着直接变异成Rime管理器了）
+
+主要面向小企鹅输入法+中州韵Rime插件和同文输入法Trime，理论上支持所有Rime输入法（依输入法实际行为而定）。
 
 ![Platform](https://img.shields.io/badge/Android-8.0%2B%20(API%2026)-3DDC84?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-7F52FF?logo=kotlin&logoColor=white)
@@ -204,7 +206,7 @@ app/src/main/cpp/                # 可选 JNI：rime_jni.cpp + CMakeLists.txt + 
 - 方案打包在 APK 内的输入法（如同文）只能识别、切换，无法逐条启停其内置方案。
 - 改动需要重启目标输入法才生效；没有启动器 Activity 的输入法服务无法用 `monkey` 拉起，需用户手动切换一次键盘。
 - 修改的是第三方输入法的实时数据目录，**风险自担**；请在改动前保留可回滚的备份（应用会自动留 `*.ptfastbak`）。
-- 方案市场是纯占位页，不包含任何网络代码。
+- 方案市场是纯占位页，不包含任何网络代码。（PAuPt本人：以后可能会做）
 
 ## 许可
 
@@ -212,4 +214,4 @@ app/src/main/cpp/                # 可选 JNI：rime_jni.cpp + CMakeLists.txt + 
 
 ## 免责声明
 
-本应用通过 Root / Shizuku 直接改写第三方输入法的实时数据目录，属于侵入式操作。使用前请自行确认风险，作者不对数据丢失、输入法异常等后果负责。
+本应用通过 Root / Shizuku 直接改写第三方输入法的实时数据目录，属于侵入式操作。使用前请自行确认风险，作者不对数据丢失、输入法异常等后果负责。（PAuPt：别吓我）
