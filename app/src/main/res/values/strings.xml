@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 应用名称使用纯英文，避免桌面图标下的中文名称 -->
+    <string name="app_name" translatable="false">PtFastRimeManager</string>
+    <string name="shizuku_provider_authorities">com.pt.fastrime.manager.shizuku</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose 负责全部界面主题，这里只给系统窗口一个不闪烁的底色 -->
+    <style name="Theme.PtFastRime" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#FFF8FAFD</item>
+        <item name="android:statusBarColor">#FFF8FAFD</item>
+        <item name="android:navigationBarColor">#FFF8FAFD</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+# Gradle / Android
+.gradle/
+.gradle-home/
+.kotlin/
+sdk/
+local.properties
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 构建产物与截图
+build/*.png
+*.apk
+*.aab
+*.log
+*.png.bak
+
+# 签名文件（私钥，绝不入库）
+keystore/
+*.keystore
+*.jks
+*.p12
+
+# 系统文件
+.DS_Store
+Thumbs.db
