@@ -24,10 +24,10 @@
 
 ## 快速开始
 - 首先就是安卓8以上
-- 然后就是要[https://shizuku.rikka.app/](Shizuku)或Root
+- 然后就是要[Shizuku](https://shizuku.rikka.app/)或Root
 
 ### 安装
-在[https://github.com/PAuPt6490/PtFastRimeManager/releases](Releases)下载安装
+在[本仓库Releases](https://github.com/PAuPt6490/PtFastRimeManager/releases)下载安装
 或
 ```bash
 adb connect <手机IP>:<无线调试端口>
